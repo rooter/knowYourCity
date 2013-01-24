@@ -1,0 +1,150 @@
+ul, ol {
+    margin: 0;
+}
+
+/*
+gold:; #B3995D
+red: #C9243F;
+*/
+
+.cities {
+    text-shadow: none;
+    font-size: 20px;
+    color: #C9243F;
+}
+.directions {
+    width: 643px;
+    font-size: 32px;
+    line-height: 40px;  
+}
+#controls {
+    width: 611px;
+    text-align: center;
+    font-size: 41px;
+}
+
+#map_canvas { 
+    height: 475px;
+    width: 500px;
+    clear: both;
+}
+
+#map_canvas h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+}
+
+#infoMast {
+    display: block;
+    list-style-type: none;
+    overflow: hidden;
+    width: 500px;
+    height: 20px;
+    padding-bottom: 20px;
+    font-size: 1.6em;
+}
+
+#infoMast li {
+    float: left;
+    display: block; 
+}
+#infoMast #timer {
+    width: 100px;
+}
+#infoMast #poi {
+    width: 267px;
+    text-align: center;
+}
+#infoMast #score {
+    text-align: right;
+    width: 130px;
+}
+.yourScore {
+    font-size:30px;
+    padding-bottom: 20px;
+}
+#initials{
+    width: 70px;
+}
+
+table.topScores {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#666;
+    font-size:28px;
+    
+    background:#eaebec;
+    margin:20px;
+    border:#ccc 1px solid;
+
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+
+    -moz-box-shadow: 0 1px 2px #d1d1d1;
+    -webkit-box-shadow: 0 1px 2px #d1d1d1;
+    box-shadow: 0 1px 2px #d1d1d1;
+}
+table.topScores td {
+    padding: 13px;
+}
+table.topScores thead {
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #fff;
+}
+
+table.topScores tbody tr:nth-child(2n+1) {
+  background-color: #ccc;
+}
+
+a.plain:link {
+    color: #333;
+    text-decoration: none;
+}
+
+a.plain:active {
+    color: #333;
+    text-decoration: none;
+}
+
+a.plain:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+a.plain:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+
+
+.about-icon {
+    float: left;
+    margin-right: 12px;
+}
+
+.footer {
+    margin-top: 30px;
+    padding-top: 10px;
+    color: #999;
+    border-top: solid 1px #ddd;
+}
+
+.footer > p {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+
+.home {
+    /*font-family: "Andika";*/
+    font-size: 36;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #666;
+    margin-top: -19px;
+    padding: 180px;
+    text-align : center;
+    text-shadow: 1px 1px 1px #000;
+}
